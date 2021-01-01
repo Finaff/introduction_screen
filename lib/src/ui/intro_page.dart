@@ -19,14 +19,14 @@ class IntroPage extends StatelessWidget {
           children: [
             if (page.image != null)
               Expanded(
-                flex: 1,
+                flex: 2,
                 child: Padding(
                   padding: page.decoration.imagePadding,
                   child: page.image,
                 ),
               ),
             Expanded(
-              flex: 1.5,
+              flex: 3,
               child: Padding(
                 padding: const EdgeInsets.only(bottom: 70.0),
                 child: SingleChildScrollView(
